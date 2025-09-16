@@ -67,6 +67,13 @@
   background: #0b5ed7;
 }
 
+.details p {
+  color: #ffffff; /* White text */
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
 /* Footer */
 .swaroop-sreedhar-university-of-maryland-fall-2025 {
   margin-top: auto;        /* Push footer to bottom */
