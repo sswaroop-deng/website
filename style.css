@@ -1,139 +1,80 @@
-.home,
-.home * {
-  box-sizing: border-box;
-}
+/* Page container */
 .home {
-  background: #ffffff;
+  background: #000000;   /* Black background */
   padding: 10px;
-  height: 1024px;
-  position: relative;
-  overflow: hidden;
-}
-.swaroop-kaushik-sreedhar {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(to left, #000000, #000000);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  position: absolute;
-  left: 80px;
-  top: 46px;
-}
-.frame-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 65px;
-  align-items: flex-end;
-  justify-content: flex-start;
-  position: absolute;
-  left: 970px;
-  top: 66px;
-}
-.home2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  position: relative;
-}
-.about {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: relative;
-}
-.contact {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: relative;
-}
-.frame-2 {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 177px;
-  top: 347px;
-}
-.let-s-create-a-website-design {
-  color: #000000;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: relative;
-}
-.frame-4 {
-  padding: 10px;
+  min-height: 100vh;     /* Full screen height */
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  width: 721px;
-  position: absolute;
-  left: 359px;
-  top: 440px;
 }
-.frame-3 {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 78px;
-  position: relative;
-}
-.today-let-s-create-a-sample-website-design-in-figma-and-export-its-corresponding-html-and-css-codes {
-  color: #000000;
-  text-align: center;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 24px;
+
+/* Navigation */
+.swaroop-kaushik-sreedhar {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 28px;
   font-weight: 400;
-  position: relative;
 }
-.rectangle-1 {
-  background: #a8ff35;
-  width: 180px;
-  height: 57px;
-  position: absolute;
-  left: 630px;
-  top: 623px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.swaroop-sreedhar-university-of-maryland-fall-2025 {
-  color: #000000;
-  text-align: center;
-  font-family: "Montserrat-Regular", sans-serif;
+
+.frame-1 a {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  position: absolute;
-  left: 500px;
-  top: 956px;
+  margin-left: 20px;
+  text-decoration: none;
 }
-.get-started {
-  color: #000000;
-  text-align: center;
+
+.frame-1 a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.let-s-create-a-website-design {
+  color: #ffffff;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.today-let-s-create-a-sample-website-design-in-figma-and-export-its-corresponding-html-and-css-codes {
+  color: #ffffff;
   font-family: "Montserrat-Regular", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  position: absolute;
-  left: 651px;
-  top: 637px;
+  margin-top: 20px;
+}
+
+/* Get Started Button */
+.rectangle-1 {
+  background: #0d6efd; /* Bootstrap blue */
+  border-radius: 6px;
+  width: 200px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 12px;
+}
+
+.get-started {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.rectangle-1:hover {
+  background: #0b5ed7;
+}
+
+/* Footer */
+.swaroop-sreedhar-university-of-maryland-fall-2025 {
+  margin-top: auto;        /* Push footer to bottom */
+  padding: 15px 0;
+  text-align: center;
+  background-color: #111;  /* Darker footer */
+  color: #bbb;             /* Light gray text */
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
