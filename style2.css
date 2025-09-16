@@ -1,93 +1,77 @@
-.about,
-.about * {
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.about {
-  background: #000000;
-  color: #ffffff;
-  min-height: 100vh;
+
+body {
+  background: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  min-height: 100vh;
 }
 
-.swaroop-kaushik-sreedhar {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  margin: 20px 0;
-}
-
-.frame-1 {
+/* Navbar */
+.navbar {
   display: flex;
-  flex-direction: row;
-  gap: 65px;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #0d6efd; /* Bootstrap blue */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 100px;
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
-.home, .about2, .contact {
-  color: #ffffff;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  cursor: pointer;
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
 }
 
-.frame-6 {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
+.details {
+  font-size: 1.1rem;
+  margin-top: 30px;
 }
 
-.budt-748-industry-practicum {
-  color: #ffffff;
+.details p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
   text-align: center;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.frame-5 {
-  margin: 30px auto;
-  max-width: 741px;
-}
-
-.this-capstone-course-will-provide-students-an-opportunity-to-work-on-a-real-world-project-where-they-will-work-with-a-company-to-use-technology-to-solve-a-business-problem {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.frame-7 {
-  margin: 40px auto;
-  max-width: 800px;
-  text-align: center;
-}
-
-.professor-paul-t-shapiro-teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-semester-details-fall-2025 {
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.professor-paul-t-shapiro-teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-semester-details-fall-2025-span {
-  font-family: "Montserrat-Bold", sans-serif;
-  font-weight: 700;
-}
-
-.professor-paul-t-shapiro-teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-semester-details-fall-2025-span2 {
-  font-family: "Montserrat-Regular", sans-serif;
-}
-
-.swaroop-sreedhar-university-of-maryland-fall-2025 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 16px;
-  margin-top: auto; /* pushes it to bottom */
-  padding: 20px 0;
+  padding: 15px;
+  margin-top: auto;
 }
