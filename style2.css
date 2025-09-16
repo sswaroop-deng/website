@@ -2,7 +2,7 @@
 .about {
   background: #000000;   /* Black background */
   padding: 10px;
-  min-height: 100vh;     /* Full screen height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,6 @@
   font-size: 48px;
   font-weight: 700;
   margin-top: 80px;
-  text-align: center;
 }
 
 .this-capstone-course-will-provide-students-an-opportunity-to-work-on-a-real-world-project-where-they-will-work-with-a-company-to-use-technology-to-solve-a-business-problem {
@@ -44,7 +43,6 @@
   font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
-  text-align: center;
   line-height: 1.6;
   max-width: 800px;
   margin-left: auto;
@@ -53,8 +51,8 @@
 
 /* Details Section */
 .details {
-  margin-top: 40px;
   text-align: center;
+  margin-top: 40px;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 18px;
   color: #ffffff;
@@ -71,11 +69,11 @@
 
 /* Footer */
 .swaroop-sreedhar-university-of-maryland-fall-2025 {
-  margin-top: auto;        /* Push footer to bottom */
+  margin-top: auto;
   padding: 15px 0;
   text-align: center;
-  background-color: #111;  /* Darker footer */
-  color: #bbb;             /* Light gray text */
+  background-color: #111;
+  color: #bbb;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 14px;
   font-weight: 400;
