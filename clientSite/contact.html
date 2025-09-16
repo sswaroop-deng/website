@@ -5,107 +5,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Contact</title>
 </head>
 <body>
   <div class="contact">
-    <div class="swaroop-kaushik-sreedhar">Swaroop Kaushik Sreedhar</div>
-    <div class="frame-1">
-      <div class="home">Home</div>
-      <div class="about">About</div>
-      <div class="contact2">Contact</div>
-    </div>
-    <div class="frame-6">
-      <div class="contact-us">Contact Us</div>
-    </div>
-    <div class="frame-5">
-      <div class="frame-4">
-        <div class="frame-3">
-          <div
-            class="reach-out-to-the-course-team-for-support-or-inquiries-swaroop-kaushik-sreedhar-sswaroop-umd-edu"
-          >
-            Reach out to the course team for support or inquiries.
-            <br />
-            <br />
-            Swaroop Kaushik Sreedhar - sswaroop@umd.edu
-          </div>
+    <div class="bg"></div>
+    <div class="main-menu container">
+      <div class="row align-items-center">
+        <div class="col-md-6 frame-1">
+          <div class="home">Home</div>
+          <div class="about">About</div>
+          <div class="contact2">Contact</div>
+        </div>
+        <div class="col-md-6 text-end swaroop-kaushik-sreedhar">
+          Swaroop Kaushik Sreedhar
         </div>
       </div>
     </div>
-    <div class="swaroop-sreedhar-university-of-maryland-fall-2025">
-      © Swaroop Sreedhar | University of Maryland | Fall 2025
+
+    <div class="hero-section container mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="contact-us">Contact Us</h2>
+          <p class="reach-out-to-the-course-team">
+            Reach out to the course team for support or inquiries.<br /><br />
+            Swaroop Kaushik Sreedhar - sswaroop@umd.edu
+          </p>
+
+          <!-- Bootstrap Contact Form -->
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Type your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="frame-7">
-      <div
-        class="professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu"
-      >
-        <span>
-          <span
-            class="professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu-span"
-          >
-            Professor Contact
-          </span>
-          <span
-            class="professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu-span2"
-          >
-            :
-            <br />
-            Paul T. Shapiro - pshapiro@umd.edu
-            <br />
-            <br />
-          </span>
-          <span
-            class="professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu-span"
-          >
-            TA Contact:
-          </span>
-          <span
-            class="professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu-span2"
-          >
-            <br />
-            <br />
-            Abhi Gupta - agupta09@umd.edu
-            <br />
-            <br />
-            Samiha Meah - smeah@umd.edu
-            <br />
-            <br />
-            Zam Mozumder - zam@umd.edu
-          </span>
-        </span>
+
+    <div class="footer container text-center mt-5">
+      <div class="swaroop-sreedhar-university-of-maryland-fall-2025">
+        © Swaroop Sreedhar | University of Maryland | Fall 2025
+      </div>
+      <div class="professor-contact mt-3">
+        <p><strong>Professor Contact:</strong> Paul T. Shapiro - pshapiro@umd.edu</p>
+        <p><strong>TA Contact:</strong></p>
+        <p>Abhi Gupta - agupta09@umd.edu</p>
+        <p>Samiha Meah - smeah@umd.edu</p>
+        <p>Zam Mozumder - zam@umd.edu</p>
       </div>
     </div>
   </div>
-  
 </body>
 </html>
