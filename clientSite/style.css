@@ -1,0 +1,139 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  padding: 10px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.swaroop-kaushik-sreedhar {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, #000000, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 46px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 970px;
+  top: 66px;
+}
+.home2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+}
+.about {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.contact {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 177px;
+  top: 347px;
+}
+.let-s-create-a-website-design {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 721px;
+  position: absolute;
+  left: 359px;
+  top: 440px;
+}
+.frame-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 78px;
+  position: relative;
+}
+.today-let-s-create-a-sample-website-design-in-figma-and-export-its-corresponding-html-and-css-codes {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.rectangle-1 {
+  background: #a8ff35;
+  width: 180px;
+  height: 57px;
+  position: absolute;
+  left: 630px;
+  top: 623px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.swaroop-sreedhar-university-of-maryland-fall-2025 {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 500px;
+  top: 956px;
+}
+.get-started {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 651px;
+  top: 637px;
+}
